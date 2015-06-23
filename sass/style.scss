@@ -1,0 +1,23 @@
+@import "./asset/reset.scss";
+
+h1 {
+  color: red;
+  transition: 200ms ease-out transform;
+  &:hover {
+    color: blue;
+    transition: 200ms ease-out transform;
+  }
+}
+
+.cak{
+	.hr{
+		font-size:20px;
+	}
+}
+
+
+
+//以下は必要なときだけ
+// @import "./asset/animate.scss";
+// @import "./asset/animsition.min.scss";
+// @import "./asset/hover-min.scss";

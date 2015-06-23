@@ -1,0 +1,28 @@
+{
+  "name": "bloggulp",
+  "version": "3.8.11",
+  "description": "20150322/blogのためのgulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "blog"
+  ],
+  "author": "takuji",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcofranssen/NodeJsPackageExample.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.4.0",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-frontnote": "^0.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-uglify": "^1.1.0"
+  }
+}

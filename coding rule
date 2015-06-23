@@ -1,0 +1,114 @@
+html
+	emmet
+
+css
+	sass
+	animate.css
+	hover.css
+
+javascript
+	backbone.js
+
+gulp
+	sudo npm init
+	sudo npm install gulp --save-dev
+	sudo npm install gulp-sass --save-dev
+	sudo npm install gulp-autoprefixer --save-dev
+	sudo npm install gulp-frontnote --save-dev
+	sudo npm install gulp-uglify --save-dev
+	sudo npm install browser-sync --save-dev
+
+
+coding-rule
+	BEM
+	jsクラス
+
+color
+	bgColor: #FFFFFF
+	baseColor: #FEF7D5
+	subColor: #CAE7F2
+	subColor: #C8EFEA
+	subColor: #EDA184
+
+	※http://hue360.herokuapp.com/
+
+
+font
+	color: #434343;
+	font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+
+	//title
+	font-family: 'Poiret One', cursive;
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+	a
+		background: transparent;
+		color: #1095B6;
+		-webkit-transition: color 0.3s;
+		-moz-transition: color 0.3s;
+		-ms-transition: color 0.3s;
+		-o-transition: color 0.3s;
+		transition: color 0.3s;
+		font-size: 100%;
+		margin: 0;
+		padding: 0;
+		text-decoration: underline;
+		vertical-align: baseline;
+
+	blog_h1
+		font-size: 1.8em;
+		line-height: 1.8em;
+		margin-bottom: 26px;
+		text-shadow: -1px 1px rgba(255,255,255,0.5);
+
+	blog_h2
+		border-left: 1px solid #f7594d;
+		color: #f7594d;
+		display: block;
+		font-size: 1.3em;
+		font-weight: bold;
+		line-height: 1.8em;
+		margin: 50px 0 26px -50px;
+		padding: 5px 0 5px 25px;
+		text-shadow: -1px 1px rgba(255,255,255,0.2);
+		
+	blog_h3
+		border-left: 1px solid #434343;
+		color: #434343;
+		display: block;
+		font-size: 1em;
+		font-weight: bold;
+		line-height: 1.8em;
+		margin: 50px 0 26px -50px;
+		padding: 5px 0 5px 25px;
+
+	blog_p
+		color: #434343;
+		font-size: 100%;
+		line-height: 2em;
+		margin: 2em 0 3em;
+
+	blog_ul
+		margin: 26px 0;
+
+	blog_li
+		color: #318a97;
+		line-height: 1.7em;
+		list-style: none;
+		padding-left: 20px;
+		text-indent: -20px;
+		
+
+	head
+		<!-- animsition CSS -->
+		<link rel="stylesheet" href="./css/animsition.min.css">
+
+		<!-- vendor js -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<!-- animsition js -->
+		<script src="./js/jquery.animsition.min.js"></script>
+		
+
+
+
